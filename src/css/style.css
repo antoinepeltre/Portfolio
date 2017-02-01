@@ -57,6 +57,14 @@ body {
   width:50%;
 }
 
+.project__number {
+  position: absolute;
+  top: 0;
+  font-size:200px;
+  opacity: 0.3;
+  font-family: sans-serif;
+}
+
 .project__infos {
   position:absolute;
   top:0;
@@ -65,7 +73,7 @@ body {
   background-color:rgba(50, 79, 87, 0.85);
   height: 100vh;
   color:#fff;
-  padding:100px 40px;
+  padding:120px 40px;
 }
 
 .project__title {
