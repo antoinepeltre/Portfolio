@@ -102,3 +102,11 @@ body {
 .project__infos.two {
   background-color: rgba(24, 33, 38, 0.85);
 }
+
+.card__project.three {
+  background-color:#F9F9F9;
+}
+
+.project__infos.three {
+  background-color:rgba(202, 202, 202, 0.85);
+}
