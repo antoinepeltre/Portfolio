@@ -94,3 +94,11 @@ body {
   color:#000;
   cursor: pointer;
 }
+
+.card__project.two {
+  background-color:#1F2A30;
+}
+
+.project__infos.two {
+  background-color: rgba(24, 33, 38, 0.85);
+}
