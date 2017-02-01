@@ -1,3 +1,4 @@
+*{font-family: 'Open Sans', sans-serif;}
 body {
     width: 100%;
     font-family: 'Open Sans', sans-serif;
@@ -109,4 +110,12 @@ body {
 
 .project__infos.three {
   background-color:rgba(202, 202, 202, 0.85);
+}
+
+.card__project.four {
+  background-color:#015E7F;
+}
+
+.project__infos.four {
+  background-color:rgba(7, 114, 150, 0.85);
 }
