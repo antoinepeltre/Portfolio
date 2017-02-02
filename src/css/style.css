@@ -158,4 +158,10 @@ body {
 
 .project__infos.hidden.two {
   display: none;
+  animation: anim__project-info 1s;
+}
+
+@keyframes anim__project-info {
+  0%{transform: translateX(500px);}
+  100%{transform: translateX(0px);}
 }
