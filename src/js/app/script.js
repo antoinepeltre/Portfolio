@@ -71,4 +71,14 @@ $(document).ready(function() {
         afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
         onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
     });
+
+
+
+});
+
+$(document).ready(function() {
+  $('.project__first-infos').hover(function(){
+    $('.project__first-infos').css('display','none');
+    $('.project__infos.hidden.two').css('display','block');
+  });
 });
