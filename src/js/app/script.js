@@ -49,8 +49,8 @@ $(document).ready(function() {
         controlArrows: true,
         verticalCentered: true,
         sectionsColor : ['#ccc', '#fff'],
-        paddingTop: '3em',
-        paddingBottom: '10px',
+        // paddingTop: '3em',
+        // paddingBottom: '10px',
         fixedElements: '#header, .footer',
         responsiveWidth: 0,
         responsiveHeight: 0,
@@ -71,14 +71,11 @@ $(document).ready(function() {
         afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
         onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
     });
-
-
-
 });
 
 $(document).ready(function() {
   $('.project__first-infos').hover(function(){
     $('.project__first-infos').css('display','none');
-    $('.project__infos.hidden.two').css('display','block');
+    $('.project__infos.hidden').css('display','block');
   });
 });

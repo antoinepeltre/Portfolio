@@ -6,15 +6,7 @@ body {
 }
 
 /* FULLPAGE */
-.section.card__project.fp-section.fp-table.active.fp-completely {
-  padding-top:0px !important;
-  padding-bottom: 0px !important;
-}
 
-.section.card__project.fp-section.fp-table {
-  padding-top:0px !important;
-  padding-bottom: 0px !important;
-}
 
 .home__card {
     width: 100%;
@@ -156,7 +148,7 @@ body {
   margin-top: 200px;
 }
 
-.project__infos.hidden.two {
+.project__infos.hidden {
   display: none;
   animation: anim__project-info 1s;
 }
