@@ -104,8 +104,16 @@ body {
   height:40px;
   border-radius:3px;
   background-color: #fff;
+  border:1px solid #fff;
   color:#000;
   cursor: pointer;
+}
+
+.project__button:hover {
+  color:#fff;
+  background-color:transparent;
+  transition: 0.5s ease;
+
 }
 
 .card__project.two {
