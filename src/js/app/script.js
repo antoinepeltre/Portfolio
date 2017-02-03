@@ -74,8 +74,29 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
+
   $('.project__first-infos').hover(function(){
     $('.project__first-infos').css('display','none');
     $('.project__infos.hidden').css('display','block');
   });
+
+  // // if({
+  // //
+  // // }$('.main__about').mouseenter(function(){
+  // //   $('.main__line--left').css({"width": "100px", "transition": "1s ease"});
+  // // });){
+  // //
+  // //   else {
+  // //     $('.main__about').mouseleave(function(){
+  // //       $('.main__line--left').css({"width": "50px", "transition": "1s ease"});
+  // //     });
+  // //   }
+  // // }
+  //
+  // if ($('.main__about').mouseenter(function(){
+  //   $('.main__line--left').css({"width": "100px", "transition": "1s ease"});
+  // });
+
+
+
 });
