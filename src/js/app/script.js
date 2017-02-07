@@ -80,6 +80,22 @@ $(document).ready(function() {
     $('.project__infos.hidden').css('display','block');
   });
 
+  $('.main__left--infos').mouseenter(function(){
+    $('.main__left--line').css('width','100px');
+  });
+
+  $('.main__left--infos').mouseleave(function(){
+    $('.main__left--line').css('width','30px');
+  });
+
+  $('.main__right--infos').mouseenter(function(){
+    $('.main__right--line').css('width','100px');
+  });
+
+  $('.main__right--infos').mouseleave(function(){
+    $('.main__right--line').css('width','30px');
+  });
+
   // // if({
   // //
   // // }$('.main__about').mouseenter(function(){

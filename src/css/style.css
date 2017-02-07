@@ -8,83 +8,76 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* FULLPAGE */
-.section.home_card.fp-section.active.fp-table.fp-completely {
-    background-color: #262525 !important;
-    /* background-image: url('../images/logo.png'); */
-    background-repeat: no-repeat;
-    background-position: 50%,50%;
-    z-index:99;
-    display: flex;
+a {
+  text-decoration: none;
 }
 
-.fp-tableCell{
-  display: inherit;
-  vertical-align: inherit;
-}
-
-.home__card {
+.main__homepage {
     width: 100%;
     height: 100vh;
-    font-family: 'Open Sans', sans-serif;
-    position: relative;
+    background-color: #262525 !important;
+    display: flex !important;
+    flex-direction: row !important;
+    color:#fff;
 }
 
-.main__about {
-    position: absolute;
-    top: 50%;
-    left: 20px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 100;
-    letter-spacing: 3px;
-    cursor: pointer;
+.fp-tableCell {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
 }
 
-.main__contact {
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 100;
-    letter-spacing: 3px;
-    cursor: pointer;
-  }
-.main__line--left {
-    position: absolute;
-    top: 65%;
-    left: 20px;
-    width: 50px;
-    height: 1px;
-    background-color: #fff;
+.main__left--infos {
+  width:20%;
+  padding-left: 20px;
+  float: left;
 }
 
-.main__line--right {
-    position: absolute;
-    top: 65%;
-    right: 20px;
-    width: 50px;
-    height: 1px;
-    background-color: #fff;
+.main__left--infos h2 {
+  margin-bottom:10px;
+  font-size:20px;
 }
 
-.main__presentation {
-    width: 100%;
-    position: absolute;
-    top: 40%;
-    text-align: center;
-    color: #fff;
+.main__left--line {
+  width:30px;
+  height: 1px;
+  background-color: #fff;
+  transition: 0.8s ease;
 }
 
-.main__title {
-    font-size: 70px;
-    letter-spacing: 3px;
+.main__center--infos {
+  width:60%;
+  text-align: center;
 }
 
-.main__role {
-    margin-top: 20px;
-    font-size: 20px;
+.main__center--infos h1 {
+  font-size:70px;
+  margin-bottom: 20px;
+}
+
+.main__center--infos h2 {
+  font-size:20px;
+}
+
+.main__right--infos {
+  width:20%;
+  padding-right: 20px;
+  float: right;
+  text-align: right;
+}
+
+.main__right--infos h2 {
+  margin-bottom:10px;
+  font-size:20px;
+}
+
+.main__right--line {
+  width:30px;
+  height: 1px;
+  background-color: #fff;
+  float: right;
+  transition: 0.8s ease;
 }
 
 .main__rs {
@@ -102,16 +95,6 @@ body {
 .main__icone img {
     width: 100%;
     display: inline-block;
-    cursor: pointer;
-}
-
-.main__rs .oval {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: black;
-    display: inline-block;
-    margin: 20px 20px;
     cursor: pointer;
 }
 
