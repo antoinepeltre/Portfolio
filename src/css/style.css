@@ -9,7 +9,7 @@ body {
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .main__homepage {
@@ -18,7 +18,7 @@ a {
     background-color: #262525 !important;
     display: flex !important;
     flex-direction: row !important;
-    color:#fff;
+    color: #fff;
 }
 
 .fp-tableCell {
@@ -29,55 +29,55 @@ a {
 }
 
 .main__left--infos {
-  width:20%;
-  padding-left: 20px;
-  float: left;
+    width: 20%;
+    padding-left: 20px;
+    float: left;
 }
 
 .main__left--infos h2 {
-  margin-bottom:10px;
-  font-size:20px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
 .main__left--line {
-  width:30px;
-  height: 1px;
-  background-color: #fff;
-  transition: 0.8s ease;
+    width: 30px;
+    height: 1px;
+    background-color: #fff;
+    transition: 0.8s ease;
 }
 
 .main__center--infos {
-  width:60%;
-  text-align: center;
+    width: 60%;
+    text-align: center;
 }
 
 .main__center--infos h1 {
-  font-size:70px;
-  margin-bottom: 20px;
+    font-size: 70px;
+    margin-bottom: 20px;
 }
 
 .main__center--infos h2 {
-  font-size:20px;
+    font-size: 20px;
 }
 
 .main__right--infos {
-  width:20%;
-  padding-right: 20px;
-  float: right;
-  text-align: right;
+    width: 20%;
+    padding-right: 20px;
+    float: right;
+    text-align: right;
 }
 
 .main__right--infos h2 {
-  margin-bottom:10px;
-  font-size:20px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
 .main__right--line {
-  width:30px;
-  height: 1px;
-  background-color: #fff;
-  float: right;
-  transition: 0.8s ease;
+    width: 30px;
+    height: 1px;
+    background-color: #fff;
+    float: right;
+    transition: 0.8s ease;
 }
 
 .main__rs {
