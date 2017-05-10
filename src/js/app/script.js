@@ -75,10 +75,11 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 
-  $('.project__first-infos').hover(function(){
-    $('.project__first-infos').css('display','none');
-    $('.project__infos.hidden').css('display','block');
-  });
+  // $('.project__first-infos').hover(function(event){
+  //   console.log(event.target);
+  //   $('.project__first-infos').css('display','none');
+  //   $('.project__infos.hidden').css('display','block');
+  // });
 
   $('.main__left--infos').mouseenter(function(){
     $('.main__left--line').css('width','100px');
